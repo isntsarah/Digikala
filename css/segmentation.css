@@ -1,0 +1,43 @@
+div.mainsegmentation {
+  height: 408px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+div.mainsegmentationtitle {
+  font-family: iranyekan;
+  display: block;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+}
+div.mainsegmentation > div.segmentation {
+  width: 11%;
+  height: 150px;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+}
+div.mainsegmentation > div.segmentation > div.image {
+  width: 104px;
+  height: 104px;
+}
+div.mainsegmentation > div.segmentation > div.image > img {
+  width: 100%;
+  height: 100%;
+}
+
+div.mainsegmentation > div.segmentation > div.title {
+  width: 100%;
+  height: 30%;
+  font-family: iranyekan;
+  text-align: center;
+  font-size: 13px;
+}

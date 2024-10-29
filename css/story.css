@@ -1,0 +1,75 @@
+div.digikalastory{
+  position: relative;
+  width: 100%;
+  height: 180px;
+  
+  
+}
+
+div.digikalastory>div.mainstory {
+  width: 100%;
+  height: 180px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  
+  
+  
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-slide > div.story {
+  width: 84px;
+  height: 140px;
+  display: flex;
+  flex-flow: column nowrap ;
+  justify-content:center;
+  align-items: center;
+  row-gap: 10px;
+
+}
+.swiper-slide > div.story > div.image {
+  width: 74px;
+  height: 74px;
+ 
+}
+.swiper-slide > div.story > div.image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  outline: 2px solid purple;
+  outline-offset: 3px;
+}
+.swiper-slide > div.story > div.title {
+  width: 84px;
+  height: 140px;
+  font-family: iranyekan;
+  color: rgb(76, 75, 75);
+  font-size: 13px;
+  text-align: center;
+
+
+}

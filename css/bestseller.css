@@ -1,0 +1,70 @@
+div.mainbestseller{
+    width: 100%;
+    height: 403px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+   
+}
+div.mainbestseller>div.bestsellertitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.mainbestseller>div.bestsellertitle>p{
+    font-family: iranyekan;
+    font-weight: bolder;
+    font-size:20px;
+    flex-grow: 1;
+    text-align: center;
+
+}
+div.mainbestseller>div.bestsellersection{
+height: inherit;
+    display: flex;
+flex-flow: column wrap;
+padding-top: 20px;
+}
+div.mainbestseller>div.bestsellertitle>a{
+    text-decoration: none;
+    float: left;
+    font-weight: bold;
+    font-family: iranyekan;
+    font-size: 15px;
+    color: cornflowerblue;
+}
+div.mainbestseller>div.bestsellersection>div.bestseller{
+width: 290px;
+height: 102px;
+display: flex;
+flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+div.mainbestseller>div.bestsellersection>div.bestseller>div.image{
+width: 30%;
+height: inherit;
+}
+div.mainbestseller>div.bestsellersection>div.bestseller>div.image>img{
+width: 86px;
+height: 86px;
+}
+div.mainbestseller>div.bestsellersection>div.bestseller>span{
+color: #19bfd3;
+margin: 0px 0px 0px 12px;
+font-size: 26px;
+font-family: iranyekan;
+font-weight: bolder;
+}
+div.mainbestseller>div.bestsellersection>div.bestseller>p{
+    font-family: iranyekan;
+  font-size: 13px;
+}
+.border-top{
+    border-top: 1px solid #f0f0f1;
+    width: 25%;
+    height: 2px;
+}

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: iranyekan;
+   
+
+}
+@font-face {
+    font-family: iranyekan;
+    src: url(../fonts/IRANYekanWeb.woff2);
+    src: url(../fonts/IRANYekanWeb.woff);
+    src: url(../fonts/IRANYekanWeb.ttf);
+    src: url(../fonts/IRANYekanWeb.eot);
+}
+
+div.wrapper {
+    width: 400px;
+    height: 495px;
+    border-radius: 3%;
+    margin: 20px auto;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+  }
+  div.wrapper > a>div.logo {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  div.wrapper >a> div.logo> svg {
+    width:30%;
+  }
+  div.wrapper > h2 {
+    font-size: large;
+    margin-right: 20px;
+    font-family: iranyekan;
+  }
+  div.wrapper > pre {
+    display: inline-block;
+    font-size: 12px;
+    font-weight:normal;
+    color: #3f4064;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-family: iranyekan;
+  
+  }
+  div.wrapper >form> input[type="text"] {
+    padding: 10px;
+    width: 330px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-right: 25px;
+    display: inline-block;
+    
+  }
+  
+  div.wrapper >form> input[type=submit]{
+    padding: 10px;
+    width: 350px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-right:20px ;
+    border-radius: 10px;
+    color:white;
+    background-color: #ef4056;
+    border: 1px solid #ccc;
+  }
+  div.wrapper>pre>a{
+    text-decoration: none;
+    font-family: iranyekan;
+  font-size: 11px;
+  font-weight:normal;
+  color: #3f4064;
+  }
+  
